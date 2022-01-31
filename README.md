@@ -6,6 +6,8 @@
 
 ## Aula 03 - Chat offline? Aprimorando as habilidades com State | Imersão React 4
 
+## Aula 04 - Integrando com o Supabase.io | Imersão React 4
+
 ### Manual Setup
 
 $ npm init -y
@@ -15,3 +17,10 @@ $ npm install next react react-dom
 $ npm run dev
 
 $ npm i @skynexui/components
+
+https://app.supabase.io/
+
+$ npm i @supabase/supabase-js
+
+Como fazer AJAX: 
+https://medium.com/@omariosouto/entendendo-como-fazer-ajax-com-a-fetchapi-977ff20da3c6
