@@ -8,6 +8,8 @@
 
 ## Aula 04 - Integrando com o Supabase.io | Imersão React 4
 
+## Aula 05 - Adicionando suporte para Stickers e dicas essenciais para próximos passos/4º Imersão React
+
 ### Manual Setup
 
 $ npm init -y

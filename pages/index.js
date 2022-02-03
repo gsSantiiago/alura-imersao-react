@@ -34,9 +34,8 @@ function Titulo(props) {
 
 export default function PaginaInicial() {
     // const username = 'gsSantiiago';
-
-    const [username, setUsername] = React.useState('gsSantiiago')
-    const roteamento = useRouter()
+    const [username, setUsername] = React.useState('gsSantiiago');
+    const roteamento = useRouter();
 
     return (
         <>
@@ -69,7 +68,8 @@ export default function PaginaInicial() {
                         onSubmit={function (infosDoEvento) {
                             infosDoEvento.preventDefault();
                             console.log('Alguém submeteu o form');
-                            roteamento.push('/chat');
+                            // roteamento.push('/chat?username=' + username);
+                            roteamento.push(`/chat?username=${username}`);
                             // window.location.href = '/chat';
                         }}
                         styleSheet={{
